@@ -1,7 +1,7 @@
 import Places from "./Places.jsx";
 import Error from "./Error.jsx";
 import { sortPlacesByDistance } from "../loc.js";
-import { fetchAvailablePlaces } from "../htpp.js";
+import { fetchAvailablePlaces } from "../http.js";
 import { useState, useEffect } from "react";
 
 export default function AvailablePlaces({ onSelectPlace }) {
